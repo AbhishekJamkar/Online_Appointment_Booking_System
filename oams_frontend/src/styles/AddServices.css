@@ -1,0 +1,54 @@
+.add-services-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+/* Style for form elements */
+.add-services-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.add-services-form input,
+.add-services-form select,
+.add-services-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-services-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.add-services-form button {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-services-form button:hover {
+  background-color: #2980b9;
+}
+
+/* Optional: Center align the button */
+.add-services-form button {
+  align-self: flex-start;
+  max-width: 100px; /* Adjust the width as needed */
+}

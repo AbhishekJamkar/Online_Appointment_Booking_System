@@ -1,0 +1,68 @@
+/* Container styling */
+.service-update-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Form styling */
+.update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.address-group {
+  margin-top: 20px;
+}
+
+/* Align inputs in one line */
+.form-group.input-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-group.input-inline label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group.input-inline input,
+.form-group.input-inline textarea {
+  flex: 2;
+  margin-right: 10px;
+}
+
+
+/* Update button styling */
+.updatePage-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.updatePage-button:hover {
+  background-color: #0056b3;
+}

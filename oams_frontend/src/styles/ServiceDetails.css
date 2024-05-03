@@ -1,0 +1,161 @@
+/*  
+.service-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.service-details-content {
+  text-align: center;
+}
+
+.service-details-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-details-image {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.service-details-description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service-details-info {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.address-details {
+  margin-top: 20px;
+}
+
+.appoint-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.appoint-button:hover {
+  background-color: #0056b3;
+} 
+ */
+
+/* //-------------------------------------------------------------------------------------------------------------------------- */
+
+/* 
+.service-details-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.service-details-content {
+  display: flex;
+}
+
+.service-details-info {
+  flex: 1;
+}
+
+.service-details-title {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.service-details-description {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.service-details-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.address-details {
+  margin-top: 30px;
+}
+
+.address-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.address-details p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.appoint-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+.appoint-button:hover {
+  background-color: #0056b3;
+} */
+
+
+.service-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.service-details-image {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.address-details {
+  margin-top: 20px;
+}
+
+.login-alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.appoint-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.appoint-button:hover {
+  background-color: #0056b3;
+}
