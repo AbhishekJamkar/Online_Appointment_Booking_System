@@ -1,0 +1,133 @@
+/* ServiceAppointments.css
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .appointments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .appointment-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+  }
+  
+  .service-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .service-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .action-buttons {
+    display: flex;
+  }
+  
+  .accept-button,
+  .reject-button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .accept-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .reject-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .accept-button:hover,
+  .reject-button:hover {
+    opacity: 0.8;
+  }
+   */
+
+  /* ServiceAppointments.css */
+/* ServiceAppointments.css */
+
+body{
+  background: linear-gradient(to right, #A9f1df, #FFBBBB);
+}
+
+.container {
+  
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.appointments-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.appointment-item {
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.service-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.action-buttons {
+  display: flex;
+}
+
+.accept-button,
+.reject-button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 120px;
+  width: 75px; /* Added height property */
+}
+
+.accept-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.reject-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.accept-button:hover,
+.reject-button:hover {
+  opacity: 0.8;
+}

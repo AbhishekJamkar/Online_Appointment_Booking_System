@@ -1,0 +1,53 @@
+   .container {
+    margin: 20px;
+  }
+  
+  .appointments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .appointment-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .appointment-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .service-id {
+    color: #777;
+  }
+  
+  .appointment-date,
+  .appointment-time,
+  .appointment-status {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .cancel-button {
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e63c3c;
+  }
+  
