@@ -9,7 +9,6 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Stack Week 1 Task](#stack-week-1-task)
 
 
 ## Technologies Used
